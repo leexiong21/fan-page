@@ -1,15 +1,17 @@
 body{
     background-color: #fcfbdf;
 }
-h1{background-color: #09c00b;color: #f6fce9;
+h1{
+    background-color: #09c00b;color: #f6fce9;
 
 }
-h2{background-color: #949976;color: #57fca7;
+h2{
+    background-color: #949976;color: #57fca7;
 }
-p {
+p{
     color: #555899;
 }
-ul{color:#c0473e;
-    
+ul{
+    color:#c0473e;
 }
 
