@@ -19,9 +19,6 @@ p {color: #060109;
     font-size: medium;
 }
 ul { list-style-image: url(iconbb.png);
-
 }
-.feature {color: #fc084e;
+.feature { color: #fc084e;
 }
-footer {background-color: #999783;
-    text-align: center;}

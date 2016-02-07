@@ -1,6 +1,5 @@
 
-body{
-    background-color: #fcfbdf;
+body{background-color: #fcfbdf;
     background-image: url(food.gif);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -40,7 +39,6 @@ footer { background-color: #6ec04f;
      font-size: smaller;
      text-align: center;
 }
-
 
 
 
