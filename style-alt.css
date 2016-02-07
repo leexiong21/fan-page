@@ -1,64 +1,53 @@
+html {  background-color:  #ffffff;
 
-body{background-color: #fcfbdf;
-    background-image: url(food.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
-h1 {
-    background-color: #09c00b;
-    color: #fdffff;
-    top: auto;
-    font-family: Elephant;
-    font-size: 60px;
+
+body{background-image: url(food.gif);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+header img{ float: left;}
+h1 {background-color: #050e07; color: #f3fffd;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-right:190px;
+    text-align: center;
+    font-size: 690%;
+    text-after-overflow: inherit;
+    font-family: "Palace Script MT"
+}
+
+#box1 { background-color: #f3ffba;
+    width: 300px;
+    height: 230px;
+    float: left;
+    margin-left: 10%;
+    border-radius: 18px;
     text-align: center;
 }
-.float { float: right;
-
+image { float: right;
+    margin-right:10%;
+    padding-right: 10px;
 }
-nav {background-color: #38c077;
-    width: 100%;
+nav {
     text-align: center;
-
+    padding-right: 40px;
 }
-h2{background-color: #1bc08a;color: #fdffff;
+h2{background-color: #f3fffd;color: #0e060c;
     font-family: Cambria;
 }
-p { background-color: #fdffff; color: rgb(48, 36, 149);
-    font-family: Century;
-    font-size: large;
 
+p { background-color: #abff9b; color: rgb(48, 36, 149);
+    font-family: Century;
 }
-ul{background-color: #fdffff;
+ul{background-color: #a7ff9c;
     color: #5f1204;
     font-family: "Franklin";
     list-style-image: url(iconspoon.png);
 }
-footer { background-color: #6ec04f;
+footer { background-color: #999783;
      font-family: "Century Gothic";
      font-style: italic;
      font-size: smaller;
      text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
