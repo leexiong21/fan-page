@@ -1,24 +1,25 @@
-body {
-    background-color: #e4fccb;
+body { background-color: #e4fccb;
 }
-h1 {background-color: #41c005;color: #d50b06;
+h1 { background-color: #41c005; color: #d50b06;
     font-family: Vivaldi;
     font-size: 70px;
 }
 image {background-color: #e4fccb;
 }
-nav {background-color: #999783;
+nav { background-color: #999783;
     width: 100%;
     text-align: center;
 }
-h2 {background-color: #8e9399; color: #eee0fc;
+h2 { background-color: #8e9399; color: #eee0fc;
     font-family: "Lucida Handwriting";
 }
-p {color: #060109;
+p { color: #060109;
     font-family: "Arial Narrow";
     font-size: medium;
 }
 ul { list-style-image: url(iconbb.png);
 }
 .feature { color: #fc084e;
+}
+footer { text-align: center;
 }
