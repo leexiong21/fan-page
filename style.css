@@ -18,6 +18,9 @@ p {color: #060109;
     font-family: "Arial Narrow";
     font-size: medium;
 }
+ul { list-style-image: url(iconbb.png);
+
+}
 .feature {color: #fc084e;
 }
 footer {background-color: #999783;

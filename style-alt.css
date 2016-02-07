@@ -5,32 +5,40 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
-h1{background-color: #09c00b;color: #fdffff; top: auto;
-    font-family: Magneto;
-    font-size: 80px;
+h1 {
+    background-color: #09c00b;
+    color: #fdffff;
+    top: auto;
+    font-family: Elephant;
+    font-size: 60px;
     text-align: center;
+}
+.float { float: right;
 
 }
 nav {background-color: #38c077;
-width: 100%;
-text-align: center;
-}
+    width: 100%;
+    text-align: center;
 
+}
 h2{background-color: #1bc08a;color: #fdffff;
     font-family: Cambria;
 }
-p { background-color: #6ec04f; color: #fdffff;
+p { background-color: #fdffff; color: rgb(48, 36, 149);
     font-family: Century;
     font-size: large;
 
 }
-ul{background-color: #6ec04f;
-    color: #c01723;
+ul{background-color: #fdffff;
+    color: #5f1204;
+    font-family: "Franklin";
+    list-style-image: url(iconspoon.png);
 }
 footer { background-color: #6ec04f;
      font-family: "Century Gothic";
+     font-style: italic;
      font-size: smaller;
-    text-align: center;
+     text-align: center;
 }
 
 
