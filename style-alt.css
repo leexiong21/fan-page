@@ -1,5 +1,4 @@
 html {  background-color:  #ffffff;
-
 }
 
 body{background-image: url(food.gif);
@@ -14,7 +13,7 @@ h1 {background-color: #050e07; color: #f3fffd;
     text-align: center;
     font-size: 690%;
     text-after-overflow: inherit;
-    font-family: "Palace Script MT"
+    font-family: "Palace Script MT","Brush Script MT",cursive;
 }
 
 #box1 { background-color: #f3ffba;
@@ -34,19 +33,19 @@ nav {
     padding-right: 40px;
 }
 h2{background-color: #f3fffd;color: #0e060c;
-    font-family: Cambria;
+    font-family: Cambria,Georgia,serif;
 }
 
 p { background-color: #abff9b; color: rgb(48, 36, 149);
-    font-family: Century;
+    font-family: Century, "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 }
 ul{background-color: #a7ff9c;
     color: #5f1204;
-    font-family: "Franklin";
+    font-family: "Franklin","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
     list-style-image: url(iconspoon.png);
 }
 footer { background-color: #999783;
-     font-family: "Century Gothic";
+     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
      font-style: italic;
      font-size: smaller;
      text-align: center;
