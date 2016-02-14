@@ -1,22 +1,29 @@
-html {  background-color:  #ffffff;
+html {  background-color: #f3ffba;
+
 }
 
-body{background-image: url(food.gif);
-    margin-left: 100px;
-    margin-right: 100px;
+#container {background-image: url(image/food.gif);
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
-header img{ float: left;}
-h1 {background-color: #050e07; color: #f3fffd;
+
+h1 {  background-image: url(image/bar2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px 100px;
+    border: 3px ridge #ffef17;
+    font-family: "Kunstler Script","Brush Script MT",cursive;
+    text-shadow: 4px 4px 4px #0c0a09;
+    color: #f9fbfc;
+    font-size: 380%;
     margin-bottom: 0;
-    margin-top: 0;
-    padding-right:190px;
+    margin-top: 2%;
+    padding-right:10px;
     text-align: center;
-    font-size: 690%;
-    text-after-overflow: inherit;
-    font-family: "Palace Script MT","Brush Script MT",cursive;
+
 }
 
-#box1 { background-color: #f3ffba;
+#box1 { background-color: #f3ffba; color: navy;
     width: 300px;
     height: 230px;
     float: left;
@@ -28,21 +35,25 @@ image { float: right;
     margin-right:10%;
     padding-right: 10px;
 }
-nav {
+nav {margin-top: 6px;
     text-align: center;
     padding-right: 40px;
+
 }
 h2{background-color: #f3fffd;color: #0e060c;
     font-family: Cambria,Georgia,serif;
 }
 
-p { background-color: #abff9b; color: rgb(48, 36, 149);
+p { background-image: -webkit-linear-gradient(rgba(170, 96, 232, 0.43),khaki, #c4ff8d, #ffe7d9);
     font-family: Century, "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    border: 2px ridge #ff9505;
+    border-radius: 15px;
+
 }
 ul{background-color: #a7ff9c;
     color: #5f1204;
     font-family: "Franklin","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
-    list-style-image: url(iconspoon.png);
+    list-style-image: url(image/iconspoon.png);
 }
 footer { background-color: #999783;
      font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;

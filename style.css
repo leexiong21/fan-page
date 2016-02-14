@@ -1,26 +1,39 @@
-body { background-color: #e4fccb;
+html { background-color: #e4fccb;
+    background-image: -webkit-linear-gradient(rgba(71, 255, 207, 0.97), #f0b380, #c4ff8d, #ffe7d9);
+}
+#container {margin-left: auto;
+         margin-right: auto;
+        width: 80%;
 }
 h1 { background-color: #6ec086; color: #fafffa;
+    background-image: url(image/rice%20bar.jpg);
+    background-size: 100% 100%;
+    border: 4px ridge #725d57;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: 5px;
     font-family: Vivaldi, "Brush Script MT",cursive;
     font-size: 70px;
+    text-shadow: 4px 4px 4px #0c0a09;
     text-align: center;
+    border-radius: 15px 15px;
 }
 image {background-color: #e4fccb;
 }
-nav { background-color: #999783;
+nav {
     width: 100%;
     text-align: center;
+    margin-top: auto;
 }
 h2 { background-color: #8e9399; color: #eee0fc;
     font-family: "Lucida Handwriting","Brush Script MT",cursive;
+    text-transform: uppercase;
 }
-p { color: #060109;
+p { text-indent: 4em;
+    color: #060109;
     font-family: "Arial Narrow",Arial,sans-serif;
     font-size: medium;
 }
-ul { list-style-image: url(iconbb.png);
+ul { list-style-image: url(image/iconbb.png);
 }
 .feature { color: #fc084e;
 }
