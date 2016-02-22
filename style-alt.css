@@ -1,63 +1,73 @@
-html {  background-color: #f3ffba;
+
+/*alt.css*/
+
+body {  background-color: #68a03c;
 
 }
 
-#container {background-image: url(image/food.gif);
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+#wrapper {background-image: url(image/food.gif);
+          margin: 0 auto;
+          width: 80%;
+          box-shadow: 4px 4px 4px #3d4047;
 }
+#link {background-color: #21ffd8;
+      text-align: center;
+      margin-bottom:0;
+      margin-top: 0; padding: 5px; }
 
-h1 {  background-image: url(image/bar2.jpg);
-    background-repeat: no-repeat;
-    border-radius: 10px 100px;
-    border: 3px ridge #ffef17;
-    font-family: "Kunstler Script","Brush Script MT",cursive;
-    text-shadow: 4px 4px 4px #0c0a09;
-    color: #f9fbfc;
-    font-size: 380%;
-    margin-bottom: 0;
-    margin-top: 2%;
-    padding-right:10px;
-    text-align: center;
-
+#logo{ background-color: #e7ff85;}
+#header h1 {background-image: url(image/bar2.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: #f0e13c;
+        font-family: "Kunstler Script","Brush Script MT",cursive;
+        padding:20px;
+        text-align: center;
+        font-size: 100px;
+        text-shadow: 3px 3px 3px #070c09;
 }
+#nav {text-align: center;
+      margin-top: 0 ;
+      margin-bottom: 18px;
+      padding-top: 0;
+      padding-bottom: 5px;
+
+ }
 
 #box1 { background-color: #f3ffba; color: navy;
     width: 300px;
     height: 230px;
     float: left;
-    margin-left: 10%;
+    margin-left: 1%;
     border-radius: 18px;
     text-align: center;
-}
-image { float: right;
-    margin-right:10%;
-    padding-right: 10px;
-}
-nav {margin-top: 6px;
-    text-align: center;
-    padding-right: 40px;
+    border: 3px ridge #ffef17;
 
 }
-h2{background-color: #f3fffd;color: #0e060c;
+#image {float:left;
+       margin-left: 1%;
+       margin-right: 0;
+}
+
+#content {  margin-left: 60%;
+
+}
+h2{ color: #f0e921; background-color: #76a031;
     font-family: Cambria,Georgia,serif;
 }
 
-p { background-image: -webkit-linear-gradient(rgba(170, 96, 232, 0.43),khaki, #c4ff8d, #ffe7d9);
-    font-family: Century, "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-    border: 2px ridge #ff9505;
-    border-radius: 15px;
-
+p {  text-indent: 2em;
+     color: #ffffff;  font-family: Century, "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
 }
-ul{background-color: #a7ff9c;
-    color: #5f1204;
-    font-family: "Franklin","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
-    list-style-image: url(image/iconspoon.png);
+ul{  color: #a1ff5e;
+     font-family: "Franklin","Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+     list-style-image: url(image/iconspoon.png);
 }
-footer { background-color: #999783;
-     font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
-     font-style: italic;
-     font-size: smaller;
-     text-align: center;
+#footer {background-color: #e7ff85;
+        font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+        font-style: italic;
+        font-size: smaller;
+        text-align: center;
 }
